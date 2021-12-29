@@ -4,8 +4,8 @@ module bitaddertb;
         $dumpvars(0, bitaddertb);
     end
     // Inputs
-    reg [1023:0] in1;
-    reg [1023:0] in2;
+    reg[1023:0] in1;
+    reg[1023:0] in2;
     reg clk;
     // Outputs
     wire[1023:0] out;

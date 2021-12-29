@@ -8,10 +8,10 @@ module adder_seq(
     output reg carry_out;
     reg carry0, carry1, carry2;
 
-    reg [255:0]r0_0, r0_1;
-    reg [255:0]r1_0, r1_1;
-    reg [255:0]r3_0, r3_1;
-    reg [255:0]r2_0, r2_1;
+    reg[255:0]r0_0, r0_1;
+    reg[255:0]r1_0, r1_1;
+    reg[255:0]r3_0, r3_1;
+    reg[255:0]r2_0, r2_1;
     
 
     always @(posedge clk) begin
