@@ -1,0 +1,3 @@
+#HDL\
+iverilog -o bitadder adder_seq.v bitaddertb.v half_adder.v full_adder.v\
+vvp bitadder\
