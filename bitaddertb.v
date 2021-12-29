@@ -8,7 +8,7 @@ module bitaddertb;
     reg [1023:0] in2;
     reg clk;
     // Outputs
-    wire [1023:0] out;
+    wire[1023:0] out;
     wire carry_out;  
     wire[1023:0]carry;
 
