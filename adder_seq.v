@@ -26,11 +26,8 @@ module adder_seq(
 
 
         {carry0, out[255:0]} <= r0_0 + r0_1;
-        $display("out:%d", out);
         {carry1, out[511:256]} <= r1_0 + r1_1 + carry0;
-         $display("out:%d", out);
         {carry2, out[767:512]} <= r2_0 + r2_1 + carry1;
-         $display("out:%d", out);
         {carry_out, out[1023:768]} <= r3_0 + r3_1 + carry2;
     end
 
